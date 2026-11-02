@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="pl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Zielony Ogród — projekt demonstracyjny</title>
+<style>
+:root{--bg:#0c1512;--panel:#14231d;--line:#30463a;--txt:#f2f7f0;--muted:#b5c6b8;--accent:#a7d66d}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 80% 0,#203b2b,transparent 42%),var(--bg);color:var(--txt);font:16px/1.65 system-ui,Arial,sans-serif}a{color:inherit;text-decoration:none}.wrap{width:min(1060px,calc(100% - 36px));margin:auto}
+header{position:sticky;top:0;background:#0c1512ed;border-bottom:1px solid var(--line);z-index:2}nav{height:70px;display:flex;justify-content:space-between;align-items:center;gap:20px}.logo{font-weight:900;letter-spacing:.5px}.logo span{color:var(--accent)}.links{display:flex;gap:20px;color:var(--muted);font-size:14px}
+.btn{display:inline-block;background:var(--accent);color:#15210c;padding:11px 17px;border-radius:9px;font-weight:800}
+.hero{padding:75px 0;display:grid;grid-template-columns:1fr 1fr;gap:32px;align-items:center}.tag{color:var(--accent);font-size:12px;font-weight:900;letter-spacing:1.4px}.hero h1{font-size:clamp(38px,6vw,60px);line-height:1.06;margin:14px 0}.muted{color:var(--muted)}.photo{min-height:310px;border-radius:18px;background:linear-gradient(0deg,#07110aaa,#07110a10),url('https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=1200&q=80') center/cover;border:1px solid var(--line)}
+section{padding:58px 0}.heading{font-size:34px;margin:8px 0}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:24px}.card{background:var(--panel);border:1px solid var(--line);border-radius:15px;padding:21px}.card h3{margin:8px 0}.card p{color:var(--muted);margin:0}.ico{font-size:25px;color:var(--accent)}
+.contact{background:linear-gradient(120deg,#1d3827,#14231d);border:1px solid #506b43;border-radius:18px;padding:30px}.small{font-size:12px;color:#9fb1a2}footer{border-top:1px solid var(--line);padding:25px 0;color:var(--muted);font-size:13px}
+@media(max-width:720px){.hero{grid-template-columns:1fr;padding:50px 0}.grid{grid-template-columns:1fr}.links{display:none}.photo{min-height:220px}}
+</style></head><body>
+<header><div class="wrap"><nav><a class="logo" href="#">ZIELONY <span>OGRÓD</span></a><div class="links"><a href="#uslugi">Usługi</a><a href="#oferta">Oferta</a><a href="#kontakt">Kontakt</a></div><a class="btn" href="#kontakt">Zapytaj o usługę</a></nav></div></header>
+<main><div class="wrap hero"><div><div class="tag">PROJEKT DEMONSTRACYJNY • OGRÓD</div><h1>Twój ogród. Nasza pasja.</h1><p class="muted">Przykładowa strona firmy ogrodniczej. Pomysły na pielęgnację zieleni, porządkowanie ogrodu i sezonowe prace w jednym miejscu.</p><a class="btn" href="#uslugi">Poznaj ofertę</a><p class="small">To fikcyjna marka i przykładowa oferta — nie jest to działająca firma.</p></div><div class="photo" role="img" aria-label="Zielony ogród"></div></div>
+<section id="uslugi"><div class="wrap"><div class="tag">CO MOŻEMY ZROBIĆ</div><h2 class="heading">Usługi ogrodnicze</h2><div class="grid">
+<div class="card"><div class="ico">✿</div><h3>Pielęgnacja trawnika</h3><p>Koszenie, obrzeża i sezonowe porządkowanie trawnika.</p></div>
+<div class="card"><div class="ico">❀</div><h3>Przycinanie roślin</h3><p>Podstawowa pielęgnacja krzewów i żywopłotów.</p></div>
+<div class="card"><div class="ico">♧</div><h3>Nasadzenia</h3><p>Pomoc w doborze roślin i planowaniu rabat.</p></div></div></div></section>
+<section id="oferta"><div class="wrap"><div class="tag">JAK PRACUJEMY</div><h2 class="heading">Ogród dopasowany do Ciebie</h2><div class="grid">
+<div class="card"><h3>1. Rozmowa</h3><p>Poznajemy potrzeby i charakter przestrzeni.</p></div>
+<div class="card"><h3>2. Plan</h3><p>Ustalamy zakres prac i przykładowy harmonogram.</p></div>
+<div class="card"><h3>3. Realizacja</h3><p>Wykonujemy uzgodnione prace i porządkujemy teren.</p></div></div><p class="small">Opis jest przykładowy i wymaga dostosowania do rzeczywistej oferty firmy.</p></div></section>
+<section id="kontakt"><div class="wrap"><div class="contact"><div class="tag">SKONTAKTUJ SIĘ</div><h2 class="heading">Zaplanujmy Twój zielony zakątek.</h2><p class="muted">Napisz kilka zdań o ogrodzie i pracach, których potrzebujesz.</p><p><b>Telefon:</b> 000 000 000</p><p><b>Obszar działania:</b> Twoje miasto i okolice</p><a class="btn" href="mailto:kontakt@example.com">Napisz wiadomość</a><p class="small">Dane są fikcyjne. Przed użyciem zastąp je prawdziwymi danymi za zgodą właściciela firmy.</p></div></div></section>
+</main><footer><div class="wrap">Zielony Ogród — przykładowy projekt do portfolio • Strona demonstracyjna</div></footer></body></html>

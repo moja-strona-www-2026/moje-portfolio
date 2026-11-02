@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="pl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Strony WWW – Twoja Firma. Nowoczesne strony dla małych firm.">
+<title>Strony WWW – Twoja Firma</title>
+<style>
+:root{--bg:#090e19;--panel:#121c2c;--line:#29384e;--txt:#f4f7fb;--muted:#aab7c9;--mint:#66e3c4}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 80% 0,#1b3045,transparent 40%),var(--bg);color:var(--txt);font:16px/1.6 system-ui,Arial,sans-serif}
+.wrap{width:min(1080px,calc(100% - 36px));margin:auto}a{color:inherit;text-decoration:none}
+header{position:sticky;top:0;background:#090e19ed;border-bottom:1px solid var(--line);backdrop-filter:blur(12px);z-index:2}
+nav{height:70px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{font-weight:900;letter-spacing:.5px}.brand b{color:var(--mint)}.links{display:flex;gap:22px;color:var(--muted);font-size:14px}
+.btn{display:inline-block;background:var(--mint);color:#071711;padding:11px 17px;border-radius:11px;font-weight:800}.outline{background:transparent;color:var(--txt);border:1px solid var(--line)}
+.hero{padding:82px 0 70px;display:grid;grid-template-columns:1.1fr .9fr;gap:42px;align-items:center}.eyebrow,.tag{color:var(--mint);font-size:12px;font-weight:800;letter-spacing:1.2px}
+h1{font-size:clamp(40px,6vw,66px);line-height:1.06;letter-spacing:-2px;margin:18px 0}h1 span{color:var(--mint)}.lead{font-size:18px;color:var(--muted);max-width:590px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}
+.preview{border:1px solid #34465e;border-radius:20px;padding:13px;background:linear-gradient(145deg,#1a2a40,#0e1625);box-shadow:0 25px 70px #0008}.dots{height:23px;color:#75869c}.screen{background:#edf3f7;color:#132438;border-radius:12px;padding:24px;min-height:255px}.screen small{color:#587087;font-weight:800}.screen h2{font-size:27px;line-height:1.1;margin:24px 0 8px}.screen p{font-size:13px;color:#5a6e82}.fake{display:inline-block;background:#173348;color:white;padding:8px 12px;border-radius:7px;font-size:12px}.tiles{display:flex;gap:8px;margin-top:22px}.tiles i{height:55px;flex:1;border-radius:8px;background:linear-gradient(135deg,#b9d8d2,#dbe5ef)}
+section{padding:65px 0}.kicker{color:var(--mint);font-size:12px;font-weight:900;letter-spacing:1.5px;text-transform:uppercase}.heading{font-size:clamp(28px,4vw,40px);line-height:1.15;margin:8px 0}.muted,.desc{color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:26px}.card{display:block;padding:21px;border:1px solid var(--line);border-radius:17px;background:linear-gradient(145deg,var(--panel),#0e1522)}.card h3{margin:10px 0 5px}.card p{margin:0;color:var(--muted)}.ico{width:42px;height:42px;border-radius:12px;background:#17352f;color:var(--mint);display:grid;place-items:center;font-size:21px}
+.art{height:135px;border-radius:12px;margin-bottom:16px;padding:14px;display:flex;align-items:end}.art div{width:100%;background:#07111ddd;padding:10px;border-radius:8px;font-weight:800}.a{background:linear-gradient(135deg,#27485a,#7ba7a0)}.b{background:linear-gradient(135deg,#383650,#b38d68)}.c{background:linear-gradient(135deg,#19433b,#91ad7c)}
+.cta{padding:32px;border:1px solid #31564e;border-radius:20px;background:linear-gradient(120deg,#122b2a,#111c2d);display:flex;justify-content:space-between;align-items:center;gap:20px}.cta h2{margin:6px 0}.note{font-size:12px;color:#91a0b5;margin-top:14px}
+footer{border-top:1px solid var(--line);padding:25px 0;color:var(--muted);font-size:13px}.foot{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+@media(max-width:740px){.hero{grid-template-columns:1fr;padding:55px 0}.grid{grid-template-columns:1fr}.links{display:none}.cta{display:block}.cta .btn{margin-top:15px}}
+</style><style>
+.contact-form{display:grid;gap:12px;max-width:520px;margin-top:18px}
+.contact-form label{color:var(--muted);font-size:14px;font-weight:650}
+.contact-form input,.contact-form textarea{width:100%;margin-top:5px;padding:12px;border:1px solid var(--line);border-radius:9px;background:#0c1421;color:var(--txt);font:inherit}
+.contact-form input:focus,.contact-form textarea:focus{outline:2px solid var(--mint);outline-offset:1px}
+.contact-form textarea{resize:vertical}
+.contact-form button{font:inherit;cursor:pointer;width:max-content}
+</style></head><body>
+<header><div class="wrap"><nav><a class="brand" href="#">STRONY WWW <b>✦</b></a><div class="links"><a href="#uslugi">Usługi</a><a href="#projekty">Projekty</a><a href="#proces">Proces</a><a href="#kontakt">Kontakt</a></div><a class="btn outline" href="#kontakt">Kontakt</a></nav></div></header>
+<main><div class="wrap hero"><div><div class="eyebrow">NOWOCZESNE STRONY INTERNETOWE</div><h1>Twoja firma zasługuje na <span>dobrą stronę.</span></h1><p class="lead">Projektuję przejrzyste, nowoczesne strony internetowe, które pomagają lokalnym firmom pokazać ofertę i ułatwiają klientom kontakt.</p><div class="actions"><a class="btn" href="#projekty">Zobacz przykłady</a><a class="btn outline" href="#uslugi">Poznaj usługi</a></div><p class="note">Portfolio demonstracyjne — przykładowe projekty, nie zrealizowane zlecenia.</p></div>
+<div class="preview"><div class="dots">● ● ●</div><div class="screen"><small>PRZYKŁADOWA STRONA FIRMOWA</small><h2>Dobra usługa.<br>Dobry pierwszy kontakt.</h2><p>Oferta, najważniejsze informacje i prosty kontakt w jednym miejscu.</p><span class="fake">Zobacz ofertę →</span><div class="tiles"><i></i><i></i><i></i></div></div></div></div>
+<section id="uslugi"><div class="wrap"><div class="kicker">Co mogę przygotować</div><h2 class="heading">Strona dopasowana do Twojej działalności</h2><p class="desc">Proste rozwiązania dla małych firm, usługodawców i lokalnych działalności.</p><div class="grid">
+<div class="card"><div class="ico">▣</div><h3>Strona wizytówka</h3><p>Informacje o firmie, oferta, godziny pracy i dane kontaktowe.</p></div>
+<div class="card"><div class="ico">✧</div><h3>Oferta usług</h3><p>Czytelna prezentacja usług, opisów i przykładowych realizacji.</p></div>
+<div class="card"><div class="ico">▤</div><h3>Galeria realizacji</h3><p>Zdjęcia prac i projektów, które pokazują zakres działalności.</p></div></div></div></section>
+<section id="projekty"><div class="wrap"><div class="kicker">Przykładowe realizacje</div><h2 class="heading">Pomysły na strony dla różnych branż</h2><p class="desc">To koncepcje portfolio stworzone do pokazania umiejętności. Nie są to strony prawdziwych klientów.</p><div class="grid">
+<a class="card" href="auto-serwis.html" aria-label="Otwórz projekt demonstracyjny Auto Serwis"><div class="art a"><div>Auto Serwis<br><small>Przykładowy warsztat</small></div></div><h3>Warsztat samochodowy</h3><p>Usługi, zakres napraw, galeria i kontakt.</p><div class="tag">KONCEPCJA • MOTORYZACJA · Otwórz projekt →</div></a>
+<a class="card" href="remont-pro.html" aria-label="Otwórz projekt demonstracyjny Remont PRO"><div class="art b"><div>Remont PRO<br><small>Przykładowa firma</small></div></div><h3>Firma remontowa</h3><p>Prezentacja usług, zdjęcia realizacji i zapytania.</p><div class="tag">KONCEPCJA • REMONTY · Otwórz projekt →</div></a>
+<a class="card" href="zielony-ogrod.html" aria-label="Otwórz projekt demonstracyjny Zielony Ogród"><div class="art c"><div>Zielony Ogród<br><small>Przykładowe usługi</small></div></div><h3>Usługi ogrodnicze</h3><p>Oferta pielęgnacji ogrodów, galeria i informacje.</p><div class="tag">KONCEPCJA • OGRÓD · Otwórz projekt →</div></a></div></div></section>
+<section id="proces"><div class="wrap"><div class="kicker">Współpraca</div><h2 class="heading">Prosty plan działania</h2><div class="grid">
+<div class="card"><div class="ico">1</div><h3>Rozmowa</h3><p>Ustalamy, czym zajmuje się firma i co ma znaleźć się na stronie.</p></div>
+<div class="card"><div class="ico">2</div><h3>Projekt</h3><p>Przygotowuję wstępny wygląd i układ strony do omówienia.</p></div>
+<div class="card"><div class="ico">3</div><h3>Poprawki</h3><p>Dopracowujemy treść i ustalamy sposób publikacji strony.</p></div></div></div></section>
+<section id="kontakt"><div class="wrap"><div class="cta"><div><div class="kicker">Masz pomysł?</div><h2>Porozmawiajmy o stronie.</h2><p class="desc">Napisz kilka zdań o firmie i o tym, czego potrzebujesz.</p><p class="note">Przed publikacją portfolio zamień przykładowy e-mail na własny, bezpieczny adres kontaktowy.</p></div><form class="contact-form" action="https://formsubmit.co/TWOJ_ADRES_EMAIL" method="POST">
+  <input type="hidden" name="_subject" value="Nowe zapytanie ze strony Strony WWW – Twoja Firma">
+  <input type="hidden" name="_template" value="table">
+  <label>Imię<br><input type="text" name="Imię" required></label>
+  <label>Twój e-mail<br><input type="email" name="email" required></label>
+  <label>Nazwa firmy (opcjonalnie)<br><input type="text" name="Firma"></label>
+  <label>Wiadomość<br><textarea name="Wiadomość" rows="5" required></textarea></label>
+  <button class="btn" type="submit">Wyślij zapytanie</button>
+</form>
+<p class="note">Przed uruchomieniem formularza wpisz swój adres odbiorczy w ustawieniach formularza (TWOJ_ADRES_EMAIL), a następnie potwierdź go w wiadomości od FormSubmit.</p></div></div></section></main>
+<footer><div class="wrap foot"><span>© 2026 Strony WWW – Twoja Firma</span><span>Portfolio demonstracyjne • Nowoczesny, ciemny styl</span></div></footer>
+</body></html>
